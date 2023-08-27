@@ -1,0 +1,12 @@
+//CREAR DATABASE
+CREATE SCHEMA `crud_app` DEFAULT CHARACTER SET utf8 ;
+
+//CREANDO LA TABLA
+
+CREATE TABLE `crud_app`.`productos` (
+  `idProducto` INT NOT NULL,
+  `nombre` VARCHAR(100) NULL,
+  `descripcion` VARCHAR(200) NULL,
+  `precio` DECIMAL NULL,
+  `cantidad` INT NULL,
+  PRIMARY KEY (`idProducto`));
